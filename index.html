@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades de Texto en CSS</title>
+    <style>
+        h1 {
+            background-color: #0044ff;
+           color: rgb(255, 255, 255);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #2600ff;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>TEMA 1-TEXTO</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Propiedad</th>
+                <th>Valor Inicial</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>color</td>
+                <td>Depende del navegador</td>
+                <td>Define el color del texto.</td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>Depende del navegador</td>
+                <td>Especifica la fuente o grupo de fuentes para el texto.</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>medium</td>
+                <td>Establece el tamaño del texto.</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>normal</td>
+                <td>Controla el grosor del texto (por ejemplo: normal, bold).</td>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td>normal</td>
+                <td>Define el estilo del texto (normal, italic, oblique).</td>
+            </tr>
+            <tr>
+                <td>font-variant</td>
+                <td>normal</td>
+                <td>Controla la representación de las mayúsculas (por ejemplo, small-caps).</td>
+            </tr>
+            <tr>
+                <td>font</td>
+                <td>Depende del navegador</td>
+                <td>Agrupa varias propiedades de la fuente (font-size, font-family, etc.).</td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>start (depende de la dirección del texto)</td>
+                <td>Alinea el texto dentro de su contenedor (left, center, right).</td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td>normal</td>
+                <td>Define la altura de la línea (distancia entre líneas de texto).</td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>none</td>
+                <td>Aplica decoraciones al texto (subrayado, tachado, etc.).</td>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>none</td>
+                <td>Controla la capitalización del texto (uppercase, lowercase).</td>
+            </tr>
+            <tr>
+                <td>vertical-align</td>
+                <td>baseline</td>
+                <td>Alinea elementos en línea en relación con la línea base del texto.</td>
+            </tr>
+            <tr>
+                <td>text-indent</td>
+                <td>0</td>
+                <td>Indenta la primera línea de un bloque de texto.</td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>normal</td>
+                <td>Define el espacio entre caracteres del texto.</td>
+            </tr>
+            <tr>
+                <td>word-spacing</td>
+                <td>normal</td>
+                <td>Define el espacio entre palabras.</td>
+            </tr>
+            <tr>
+                <td>white-space</td>
+                <td>normal</td>
+                <td>Controla cómo se manejan los espacios en blanco en el texto.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>TEMA 2 - ENLACES</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Característica</th>
+                <th>Propiedades</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tamaño, Color y Decoración</td>
+                <td>font-size, color, text-decoration</td>
+                <td>Controla el tamaño, el color y la decoración de los enlaces, como subrayado.</td>
+            </tr>
+            <tr>
+                <td>Decoración Personalizada</td>
+                <td>text-decoration, background-color</td>
+                <td>Permite aplicar decoraciones personalizadas, como subrayado de colores o un fondo detrás del enlace.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>TEMA 3 - IMÁGENES</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Característica</th>
+                <th>Propiedades</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Anchura y Altura</td>
+                <td>width, height</td>
+                <td>Permite definir las dimensiones de una imagen.</td>
+            </tr>
+            <tr>
+                <td>Eliminar el Borde</td>
+                <td>border: none</td>
+                <td>Elimina el borde que puede aparecer alrededor de una imagen.</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>TEMA 4 - LISTAS</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Propiedad</th>
+                <th>Valor Inicial</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>list-style-type</td>
+                <td>disc</td>
+                <td>Define el tipo de marcador (círculo, cuadrado, número, etc.) que se usa para los elementos de la lista.</td>
+            </tr>
+            <tr>
+                <td>list-style-position</td>
+                <td>outside</td>
+                <td>Controla si el marcador aparece dentro o fuera del cuadro de contenido.</td>
+            </tr>
+            <tr>
+                <td>list-style-image</td>
+                <td>none</td>
+                <td>Permite usar una imagen como marcador de lista.</td>
+            </tr>
+            <tr>
+                <td>list-style</td>
+                <td>Depende del navegador</td>
+                <td>Es un atajo que combina varias propiedades de estilo de lista (list-style-type, list-style-position, etc.).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>TEMA 5 - TABLAS</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Propiedad</th>
+                <th>Se Aplica a</th>
+                <th>Valor Inicial</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>border-collapse</td>
+                <td>Tablas</td>
+                <td>separate</td>
+                <td>Define si los bordes de la tabla están separados o colapsados en un único borde.</td>
+            </tr>
+            <tr>
+                <td>border-spacing</td>
+                <td>Tablas</td>
+                <td>0</td>
+                <td>Establece el espacio entre los bordes de las celdas cuando se usa border-collapse: separate.</td>
+            </tr>
+            <tr>
+                <td>empty-cells</td>
+                <td>Celdas de tabla</td>
+                <td>show</td>
+                <td>Define si se muestran los bordes de las celdas vacías o no.</td>
+            </tr>
+            <tr>
+                <td>caption-side</td>
+                <td>Tablas</td>
+                <td>top</td>
+                <td>Controla la posición de la leyenda de la tabla (arriba o abajo).</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+</body>
+</html>
